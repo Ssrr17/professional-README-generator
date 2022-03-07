@@ -6,11 +6,14 @@ Built With:
 
 Node.js
 
-Website
 
-https://ssrr17.github.io/Challenge-2---Portfolio/
+Github link:
+https://github.com/Ssrr17/professional-README-generator.git
 
 Contribution
+
+sample Readme: Sample README.md
+Video Walktrough : https://drive.google.com/file/d/17Ewsl6TFx86wkk_XYbLDqrJLgJGoCWP4/view
 
 Made with ❤️ by Salieu 
 

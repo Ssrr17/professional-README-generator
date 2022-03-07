@@ -16,7 +16,7 @@ function renderLicenseBadge(license) {
       return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`;
     case 'Boost Software License 1.0':
       return `[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)`;
-    case 'Unlicensed':
+    case 'No License':
       return '';
 
 
@@ -78,7 +78,7 @@ function renderLicenseSection(license) {
       A simple permissive license only requiring preservation of copyright and license notices for
        source (and not binary) distribution. Licensed works, modifications, and larger works may be 
        distributed under different terms and without source code.`
-    case 'Unlicensed':
+    case 'No License':
       return ''  
 
   }
@@ -104,8 +104,7 @@ function generateMarkdown(answers) {
   ## Installation
     ${answers.install}
   ## License
-    
-    ${renderLicenseSection(answers.license)}
+   ${renderLicenseSection(answers.license)}
   ## Usage
     ${answers.usage}
   ## Questions
